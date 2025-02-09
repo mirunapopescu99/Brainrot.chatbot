@@ -1,7 +1,9 @@
 # Brainrot.chatbot
 
 
-BrainrotBot: A GenZ/Alpha Mood-Translating Music Chatbot
+##BrainrotBot: A GenZ/Alpha Mood-Translating Music Chatbot
+
+##Project Description
 This project implements a chatbot that translates user moods into GenZ/Alpha slang and recommends music based on those moods.
 Project Overview
 BrainrotBot is designed to enhance user engagement by providing a fun and relatable music recommendation experience. The chatbot interprets user-inputted moods, translates them into slang terms popular among Gen Z and Alpha generations, and then recommends songs with matching emotional tones from a curated dataset. This project utilizes various Natural Language Processing (NLP) techniques to achieve this functionality.  The core innovation lies in combining mood translation with music recommendation, creating a unique user experience.
@@ -12,7 +14,7 @@ Slang Dataset: A dictionary containing Gen Z and Alpha slang terms mapped to cor
 TikTok Data (Supplementary): Additional slang terms were collected from a TikTok video to enrich the slang datasetKaspercools. Louis Wong. (2024) Brainrot Gen Alpha Terms. 12 July. Available at: https://vm.tiktok.com/ZGdjrDKBD/ (Accessed: 20/11/24)
 
 
-Methodology
+##Methodology
 The chatbot's functionality is divided into these main components:
 Mood Detection: User input is processed to detect the expressed mood using keyword detection and regular expressions.
 Mood Translation: The detected mood is translated into randomly selected slang terms based on the slang dataset.
@@ -27,8 +29,7 @@ Results
 The chatbot was tested with four participants who found it helpful, friendly, and entertaining.  It accurately identified and translated moods like "happy" and "sad," but struggled with more nuanced moods like "hungry" or "lonely" due to limitations in the slang dataset. This highlights an area for future improvement.  
 
 
-Technologies Used
-
+##Technologies Used
 Python
 NLTK (or other NLP libraries used)
 SpaCy
@@ -40,7 +41,7 @@ Regular Expressions
 
 
 
-Future Work
+##Future Work
 Expand the slang dataset to include a wider range of moods and slang terms from diverse sources.
 Implement a feedback loop allowing the chatbot to learn from user interactions.
 Integrate additional NLP techniques such as contextual understanding to improve mood detection accuracy.
