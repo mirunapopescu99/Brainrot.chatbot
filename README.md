@@ -3,7 +3,7 @@
 
 ## BrainrotBot: A GenZ/Alpha Mood-Translating Music Chatbot
 
-##Project Description
+## Project Description
 This project implements a chatbot that translates user moods into GenZ/Alpha slang and recommends music based on those moods.
 Project Overview
 BrainrotBot is designed to enhance user engagement by providing a fun and relatable music recommendation experience. The chatbot interprets user-inputted moods, translates them into slang terms popular among Gen Z and Alpha generations, and then recommends songs with matching emotional tones from a curated dataset. This project utilizes various Natural Language Processing (NLP) techniques to achieve this functionality.  The core innovation lies in combining mood translation with music recommendation, creating a unique user experience.
@@ -30,13 +30,13 @@ The chatbot was tested with four participants who found it helpful, friendly, an
 
 
 ## Technologies Used
-Python
-NLTK (or other NLP libraries used)
-SpaCy
-TensorFlow/PyTorch (if used for sentiment analysis or topic modeling)
-VADER
-Pandas
-Regular Expressions
+Python, 
+NLTK (or other NLP libraries used), 
+SpaCy, 
+TensorFlow/PyTorch (if used for sentiment analysis or topic modeling), 
+VADER, 
+Pandas, 
+Regular Expressions, 
 
 
 
